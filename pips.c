@@ -276,7 +276,7 @@ int main(int argc, char **argv)
 			}
 
 			if (loc_time->tm_min && loc_time->tm_sec == 00)
-				printf("%s - BEEP -- BEEP -- BEEP -- BEEP -- BEEP -- BEEEEEEEEEEEP\n", t);
+				printf("%s - BEEP -- BEEP -- BEEP -- BEEP -- BEEP -- BEEP!\n", t);
 			time_old = ts->tv_sec;
 		}
 
